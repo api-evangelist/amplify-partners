@@ -1,0 +1,82 @@
+aid: amplify-partners
+name: Amplify Partners
+description: >-
+  Amplify Partners is an early-stage venture capital firm founded in 2012 and
+  headquartered in Menlo Park, California, with a second office in San Francisco.
+  Amplify positions itself as "the first investor for technical founders" —
+  engineers, researchers, and scientists who have felt a problem viscerally and
+  are compelled to spend a decade solving it. The firm invests primarily at the
+  seed and Series A stages, with check sizes generally ranging from roughly $1M
+  to $10M (often around $3M at seed), and continues to back companies through
+  growth and IPO. Its thesis concentrates on deep technical categories:
+  developer tools and computing infrastructure, machine learning and artificial
+  intelligence, data and analytics, cybersecurity, and digital biology. In June
+  2025 Amplify announced roughly $900M in new capital across three vehicles —
+  Fund 6, Fund 6 Select, and Amplify Bio. Notable portfolio companies include
+  Datadog, Fastly, dbt Labs, Temporal, Chainguard, LangChain, Runway, and
+  Recursion.
+image: https://www.amplifypartners.com/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Developer Tools
+  - Infrastructure
+  - Artificial Intelligence
+  - Machine Learning
+  - Data
+  - Cybersecurity
+  - Digital Biology
+  - North America
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.amplifypartners.com/
+  - type: Portfolio
+    url: https://www.amplifypartners.com/portfolio/company
+  - type: Portfolio
+    url: portfolio/amplify-partners-portfolio.yml
+  - type: Team
+    url: https://www.amplifypartners.com/team
+  - type: Team
+    url: team/amplify-partners-team.yml
+  - type: InvestmentThesis
+    url: https://www.amplifypartners.com/about-amplify
+  - type: Blog
+    url: https://www.amplifypartners.com/writing
+  - type: Podcast
+    url: https://www.amplifypartners.com/barrchives
+  - type: Jobs
+    url: http://talent.amplifypartners.com/
+  - type: Twitter
+    url: https://x.com/AmplifyPartners
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/amplify-partners/
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/amplify-partners
+  - type: Features
+    data:
+      - 'Stage: Seed, Series A (through growth and IPO)'
+      - 'Typical check: ~$1M–$10M (around $3M at seed)'
+      - 'Sectors: developer tools & infrastructure, AI/ML, data & analytics, cybersecurity, digital biology'
+      - 'Geography: North America (US)'
+      - 'Founded: 2012'
+      - 'HQ: Menlo Park, CA (second office San Francisco, CA)'
+      - 'Recent funds: ~$900M across Fund 6, Fund 6 Select, and Amplify Bio (June 2025)'
+    sources:
+      - https://www.amplifypartners.com/about-amplify
+      - https://www.amplifypartners.com/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Amplify Partners
+    url: https://www.amplifypartners.com/
