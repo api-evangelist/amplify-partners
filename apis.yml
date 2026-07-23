@@ -15,6 +15,17 @@ description: >-
   Fund 6, Fund 6 Select, and Amplify Bio. Notable portfolio companies include
   Datadog, Fastly, dbt Labs, Temporal, Chainguard, LangChain, Runway, and
   Recursion.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.amplifypartners.com/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital

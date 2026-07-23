@@ -3,9 +3,9 @@ method: searched
 source: https://www.amplifypartners.com/portfolio/company
 summary:
   portfolio_total: 114
-  in_network: 53
-  api_providers: 36
-  missing: 61
+  in_network: 114
+  api_providers: 49
+  missing: 0
   stubs_created: 0
 companies:
 - name: Achira
@@ -14,9 +14,10 @@ companies:
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: achira
+  slug: achira
+  matched_by: domain
 - name: ActionIQ
   url: https://actioniq.com
   description: Customer data platform for enterprise marketing and analytics.
@@ -33,27 +34,30 @@ companies:
   sector: data-analytics
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: allium
+  in_network: true
+  is_api_provider: true
+  slug: allium
+  matched_by: domain
 - name: Anchorage
   url: https://anchorage.com
   description: Digital asset custody and infrastructure platform.
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: anchorage
+  in_network: true
+  is_api_provider: true
+  slug: anchorage
+  matched_by: domain
 - name: Antithesis
   url: https://antithesis.com
   description: Autonomous software testing and reliability platform.
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: antithesis
+  slug: antithesis
+  matched_by: domain
 - name: Anyscale
   url: https://anyscale.com
   description: Scalable compute platform built on the open-source Ray framework.
@@ -70,9 +74,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: archera
+  in_network: true
+  is_api_provider: true
+  slug: archera
+  matched_by: domain
 - name: Authzed
   url: https://authzed.com
   description: Fine-grained authorization system based on Google Zanzibar (SpiceDB).
@@ -91,8 +96,8 @@ companies:
   source: https://www.amplifypartners.com/portfolio/company
   slug: avoca
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: Axiom
   url: https://axi.om
   description: Digital biology company.
@@ -129,18 +134,20 @@ companies:
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bexorg
+  slug: bexorg
+  matched_by: domain
 - name: bitdrift
   url: https://bitdrift.io
   description: Mobile observability and real-time telemetry platform.
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitdrift
+  slug: bitdrift
+  matched_by: domain
 - name: Bluedata
   url: https://hpe.com
   description: Big data container platform; acquired by HPE.
@@ -157,9 +164,10 @@ companies:
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: boltz
+  in_network: true
+  is_api_provider: true
+  slug: boltz
+  matched_by: domain
 - name: Buddybuild
   url: https://apple.com
   description: Mobile CI/CD platform; acquired by Apple.
@@ -176,36 +184,40 @@ companies:
   sector: digital-biology
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cambridge-cancer-genomics
+  slug: cambridge-cancer-genomics
+  matched_by: domain
 - name: Cask Data
   url: https://cloud.google.com/data-fusion
   description: Data integration platform; acquired by Google (Cloud Data Fusion).
   sector: developer-tools
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cask-data
+  slug: cask-data
+  matched_by: name-slug
 - name: Centivax
   url: https://centivax.com
   description: Universal vaccine platform.
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: centivax
+  slug: centivax
+  matched_by: domain
 - name: Chai Discovery
   url: https://chaidiscovery.com
   description: AI models for molecular structure prediction and drug design.
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chai-discovery
+  slug: chai-discovery
+  matched_by: domain
 - name: Chainguard
   url: https://chainguard.dev
   description: Secure-by-default container images and software supply chain security.
@@ -242,27 +254,30 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: command-e
+  slug: command-e
+  matched_by: domain
 - name: Conjur
   url: https://conjur.org
   description: Secrets management and machine identity; acquired by CyberArk.
   sector: cybersecurity
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: conjur
+  in_network: true
+  is_api_provider: true
+  slug: conjur
+  matched_by: domain
 - name: Continual
   url: https://continual.ai
   description: Machine learning platform for the modern data stack.
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: continual
+  slug: continual
+  matched_by: domain
 - name: Covariant
   url: https://covariant.ai
   description: AI robotics and foundation models for warehouse automation.
@@ -279,9 +294,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cubist
+  in_network: true
+  is_api_provider: true
+  slug: cubist
+  matched_by: domain
 - name: Dagster
   url: https://dagster.io
   description: Open-source data orchestration platform.
@@ -318,18 +334,20 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datologyai
+  slug: datologyai
+  matched_by: domain
 - name: David AI
   url: https://withdavid.ai
   description: AI audio data platform for speech models.
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: david-ai
+  slug: david-ai
+  matched_by: domain
 - name: dbt Labs
   url: https://getdbt.com
   description: Analytics engineering and data transformation platform.
@@ -356,9 +374,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: diagrid
+  slug: diagrid
+  matched_by: domain
 - name: Diffbot
   url: https://diffbot.com
   description: Knowledge graph and web data extraction via AI.
@@ -375,18 +394,20 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dyndrite
+  slug: dyndrite
+  matched_by: domain
 - name: Effectful
   url: https://effectful.co
   description: Developer tools and computing infrastructure.
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: effectful
+  slug: effectful
+  matched_by: domain
 - name: Einblick
   url: https://databricks.com
   description: Visual data science workspace; acquired by Databricks.
@@ -403,18 +424,20 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: emancro
+  slug: emancro
+  matched_by: domain
 - name: Enlitic
   url: https://enlitic.com
   description: AI for medical imaging and radiology workflows.
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enlitic
+  slug: enlitic
+  matched_by: domain
 - name: Eppo
   url: https://geteppo.com
   description: Experimentation and feature-flagging analytics platform; acquired by Datadog.
@@ -431,9 +454,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: exedev
+  slug: exedev
+  matched_by: domain
 - name: Fastly
   url: https://fastly.com
   description: Edge cloud platform and content delivery network; IPO 2019.
@@ -460,10 +484,10 @@ companies:
   sector: ai-ml
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  slug: flux
+  slug: beamery
   in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  is_api_provider: false
+  matched_by: domain
 - name: Foxglove
   url: https://foxglove.dev
   description: Observability and visualization tooling for robotics.
@@ -480,9 +504,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gallop
+  in_network: true
+  is_api_provider: true
+  slug: gallop
+  matched_by: domain
 - name: Goldsky
   url: https://goldsky.com
   description: Real-time blockchain data indexing and streaming infrastructure.
@@ -509,9 +534,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gradium
+  in_network: true
+  is_api_provider: true
+  slug: gradium
+  matched_by: domain
 - name: Gremlin
   url: https://gremlin.com
   description: Chaos engineering and reliability testing platform.
@@ -528,7 +554,7 @@ companies:
   sector: data-analytics
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  slug: hexa
+  slug: hex
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -548,27 +574,30 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: inception
+  in_network: true
+  is_api_provider: true
+  slug: inception-labs
+  matched_by: domain
 - name: Inevitable
   url: https://inevitabletech.com
   description: Machine learning and AI company.
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inevitable
+  slug: inevitable
+  matched_by: domain
 - name: Infinitopes
   url: https://infinitopes.com
   description: Precision cancer immunotherapy and neoantigen discovery.
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infinitopes
+  slug: infinitopes
+  matched_by: domain
 - name: Integris Software
   url: https://onetrust.com
   description: Data privacy automation; acquired by OneTrust.
@@ -585,18 +614,20 @@ companies:
   sector: ai-ml
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intellimize
+  slug: intellimize
+  matched_by: domain
 - name: InterVenn
   url: https://intervenn.com
   description: Glycoproteomics and AI for biomarker discovery.
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intervenn
+  slug: intervenn
+  matched_by: domain
 - name: Lamini
   url: https://lamini.ai
   description: Enterprise LLM platform for fine-tuning and deployment.
@@ -623,7 +654,7 @@ companies:
   sector: cybersecurity
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  slug: microsoft-azure
+  slug: demisto
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -673,45 +704,50 @@ companies:
   sector: cybersecurity
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: material-security
+  slug: material-security
+  matched_by: domain
 - name: Maze
   url: https://maze.co
   description: Continuous product discovery and user research platform.
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maze
+  slug: maze
+  matched_by: domain
 - name: Meroxa
   url: https://meroxa.com
   description: Real-time data streaming and integration platform.
   sector: data-analytics
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meroxa
+  slug: meroxa
+  matched_by: domain
 - name: Metaphor
   url: https://metaphor.io
   description: Data governance and metadata social platform.
   sector: data-analytics
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metaphor
+  slug: metaphor
+  matched_by: domain
 - name: Minerva Labs
   url: https://minerva-labs.com
   description: Endpoint anti-evasion security; acquired by Rapid7.
   sector: cybersecurity
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: minerva-labs
+  slug: minerva-labs
+  matched_by: domain
 - name: Modal
   url: https://modal.com
   description: Serverless compute platform for AI and data workloads.
@@ -728,9 +764,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: moonbounce
+  in_network: true
+  is_api_provider: true
+  slug: moonbounce
+  matched_by: domain
 - name: MotherDuck
   url: https://motherduck.com
   description: Serverless analytics powered by DuckDB.
@@ -747,9 +784,10 @@ companies:
   sector: data-analytics
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: motif-analytics
+  slug: motif-analytics
+  matched_by: domain
 - name: Near
   url: https://near.org
   description: Layer-1 blockchain protocol and developer platform.
@@ -776,27 +814,30 @@ companies:
   sector: data-analytics
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outerbounds
+  slug: outerbounds
+  matched_by: domain
 - name: Parrot
   url: https://parrot.us
   description: Machine learning and AI company.
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parrot
+  slug: parrot
+  matched_by: domain
 - name: PicnicHealth
   url: https://picnichealth.com
   description: Patient-centered medical records and real-world health data.
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: picnichealth
+  slug: picnichealth
+  matched_by: domain
 - name: Polly
   url: https://polly.ai
   description: Machine learning and AI company.
@@ -813,9 +854,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: postgresml
+  slug: postgresml
+  matched_by: domain
 - name: Primer
   url: https://primer.ai
   description: Natural language processing platform for analysts.
@@ -842,25 +884,27 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reactor
+  slug: reactor
+  matched_by: domain
 - name: ReadySet
   url: https://readyset.io
   description: SQL caching layer for databases.
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: readyset
+  slug: readyset
+  matched_by: domain
 - name: Recursion
   url: https://recursion.com
   description: AI-driven drug discovery platform; IPO 2021.
   sector: digital-biology
   status: ipo
   source: https://www.amplifypartners.com/portfolio/company
-  slug: exscientia
+  slug: recursion
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -870,9 +914,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: replicated
+  in_network: true
+  is_api_provider: true
+  slug: replicated
+  matched_by: domain
 - name: Runway
   url: https://runwayml.com
   description: Generative AI for video and creative media.
@@ -889,27 +934,30 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scribe
+  in_network: true
+  is_api_provider: true
+  slug: scribe
+  matched_by: domain
 - name: SiMa
   url: https://sima.ai
   description: Machine learning system-on-chip for edge AI.
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sima
+  slug: sima
+  matched_by: domain
 - name: Sonera
   url: https://sonera.io
   description: Machine learning and AI company.
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sonera
+  slug: sonera
+  matched_by: domain
 - name: Sourcegraph
   url: https://sourcegraph.com
   description: Code intelligence, search, and AI coding assistant platform.
@@ -926,9 +974,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spiral
+  slug: spiral
+  matched_by: domain
 - name: StackRox
   url: https://stackrox.com
   description: Kubernetes-native container security; acquired by Red Hat.
@@ -945,45 +994,50 @@ companies:
   sector: developer-tools
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: suborbital
+  slug: suborbital
+  matched_by: domain
 - name: Suplari
   url: https://suplari.com
   description: Spend intelligence and procurement analytics; acquired by Microsoft.
   sector: developer-tools
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: suplari
+  slug: suplari
+  matched_by: domain
 - name: Sym
   url: https://symops.com
   description: Authorization and access workflow automation for engineering.
   sector: cybersecurity
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sym
+  slug: sym
+  matched_by: domain
 - name: System Initiative
   url: https://systeminit.com
   description: Collaborative infrastructure automation and digital twin platform.
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: system-initiative
+  slug: system-initiative
+  matched_by: domain
 - name: Tahoe Therapeutics
   url: https://tahoebio.ai
   description: AI and single-cell biology for drug discovery.
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tahoe-therapeutics
+  slug: tahoe-therapeutics
+  matched_by: domain
 - name: Temporal
   url: https://temporal.io
   description: Durable execution and workflow orchestration platform.
@@ -1020,54 +1074,60 @@ companies:
   sector: developer-tools
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tracelytics
+  slug: appneta-broadcom-software
+  matched_by: domain
 - name: Unblocked
   url: https://getunblocked.com
   description: AI assistant that answers questions about codebases.
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: unblocked
+  in_network: true
+  is_api_provider: true
+  slug: unblocked
+  matched_by: domain
 - name: Useful Sensors
   url: https://usefulsensors.com
   description: On-device AI sensors and speech models.
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: useful-sensors
+  slug: useful-sensors
+  matched_by: domain
 - name: Vera
   url: https://helpsystems.com
   description: Data-centric security; acquired by HelpSystems (Fortra).
   sector: cybersecurity
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vera
+  slug: vera
+  matched_by: domain
 - name: VeriSIM Life
   url: https://verisimlife.com
   description: AI biosimulation for drug development.
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verisim-life
+  slug: verisim-life
+  matched_by: domain
 - name: Visby Medical
   url: https://visbymedical.com
   description: Point-of-care PCR diagnostic devices.
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: visby-medical
+  slug: visby-medical
+  matched_by: name-slug
 - name: WarpStream
   url: https://warpstream.com
   description: Kafka-compatible streaming built on object storage; acquired by Confluent.
@@ -1084,6 +1144,7 @@ companies:
   sector: cybersecurity
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yeshid
+  slug: yeshid
+  matched_by: domain
