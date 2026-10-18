@@ -3,9 +3,9 @@ method: searched
 source: https://www.amplifypartners.com/portfolio/company
 summary:
   portfolio_total: 114
-  in_network: 114
-  api_providers: 49
-  missing: 0
+  in_network: 110
+  api_providers: 50
+  missing: 4
   stubs_created: 0
 companies:
 - name: Achira
@@ -104,10 +104,10 @@ companies:
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  slug: axiom
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: axiom
+  suggested_slug: axi-om
 - name: Backtrace
   url: https://saucelabs.com
   description: Crash and error reporting for native applications; acquired by Sauce Labs.
@@ -194,10 +194,10 @@ companies:
   sector: developer-tools
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cask-data
-  matched_by: name-slug
+  x-name-collision: cask-data
+  suggested_slug: google-com
 - name: Centivax
   url: https://centivax.com
   description: Universal vaccine platform.
@@ -234,7 +234,7 @@ companies:
   sector: developer-tools
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  slug: chef
+  slug: chef-software
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -494,9 +494,9 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  slug: shield-ai
+  slug: foxglove-technologies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Gallop
   url: https://higallop.com
@@ -576,7 +576,7 @@ companies:
   source: https://www.amplifypartners.com/portfolio/company
   in_network: true
   is_api_provider: true
-  slug: inception-labs
+  slug: inception
   matched_by: domain
 - name: Inevitable
   url: https://inevitabletech.com
@@ -654,7 +654,7 @@ companies:
   sector: cybersecurity
   status: acquired
   source: https://www.amplifypartners.com/portfolio/company
-  slug: demisto
+  slug: cyberark
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -664,7 +664,7 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  slug: luma-ai
+  slug: luma-labs
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -754,9 +754,9 @@ companies:
   sector: data-analytics
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  slug: modal
+  slug: modal-labs
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Moonbounce
   url: https://moonbounce.io
@@ -844,10 +844,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  slug: polly
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: polly
+  suggested_slug: polly-ai
 - name: PostgresML
   url: https://postgresml.org
   description: In-database machine learning on PostgreSQL.
@@ -904,7 +904,7 @@ companies:
   sector: digital-biology
   status: ipo
   source: https://www.amplifypartners.com/portfolio/company
-  slug: recursion
+  slug: exscientia
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -924,7 +924,7 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  slug: runwayml
+  slug: runway
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1044,7 +1044,7 @@ companies:
   sector: developer-tools
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  slug: temporal
+  slug: scalable-software-and-systems
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1076,7 +1076,7 @@ companies:
   source: https://www.amplifypartners.com/portfolio/company
   in_network: true
   is_api_provider: false
-  slug: appneta-broadcom-software
+  slug: appneta
   matched_by: domain
 - name: Unblocked
   url: https://getunblocked.com
@@ -1124,10 +1124,10 @@ companies:
   sector: digital-biology
   status: active
   source: https://www.amplifypartners.com/portfolio/company
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: visby-medical
-  matched_by: name-slug
+  x-name-collision: visby-medical
+  suggested_slug: visbymedical-com
 - name: WarpStream
   url: https://warpstream.com
   description: Kafka-compatible streaming built on object storage; acquired by Confluent.

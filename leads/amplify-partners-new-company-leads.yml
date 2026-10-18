@@ -1,4 +1,32 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: amplify-partners
-leads: []
+leads:
+- name: Axiom
+  url: https://axi.om
+  suggested_slug: axi-om
+  sector: digital-biology
+  source_vc: amplify-partners
+  source: https://www.amplifypartners.com/portfolio/company
+  stub_created: false
+- name: Cask Data
+  url: https://cloud.google.com/data-fusion
+  suggested_slug: google-com
+  sector: developer-tools
+  source_vc: amplify-partners
+  source: https://www.amplifypartners.com/portfolio/company
+  stub_created: false
+- name: Polly
+  url: https://polly.ai
+  suggested_slug: polly-ai
+  sector: ai-ml
+  source_vc: amplify-partners
+  source: https://www.amplifypartners.com/portfolio/company
+  stub_created: false
+- name: Visby Medical
+  url: https://visbymedical.com
+  suggested_slug: visbymedical-com
+  sector: digital-biology
+  source_vc: amplify-partners
+  source: https://www.amplifypartners.com/portfolio/company
+  stub_created: false
